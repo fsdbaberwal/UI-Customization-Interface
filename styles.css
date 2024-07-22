@@ -63,3 +63,33 @@ body.dark-mode .container {
     background-color: #444444;
     color: #ffffff;
 }
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    button {
+        padding: 10px;
+    }
+    
+    input[type="color"], input[type="range"], select {
+        padding: 3px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    button {
+        padding: 5px;
+    }
+}
